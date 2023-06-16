@@ -1,22 +1,11 @@
-<?php 
 
-$serverName = "localhost";
-$userName = "root";
-$password = "";
-$dbName = "bookingcalendar";
+<?php
+	//for MySQLi OOP
+	$con = new mysqli('localhost', 'root', '', 'bookingcalendar');
+	if($con->connect_error){
+	   die("Connection failed: " . $con->connect_error);
+	}
+	////////////////
 
-
-//Create connection
-
-$con = mysqli_connect($serverName, $userName, $password, $dbName);
-
-if(mysqli_connect_errno()){
-	echo "Failed to connect";
-	exit();
-}
-echo "";
-
-
-
-
+	
 ?>

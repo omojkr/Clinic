@@ -1,0 +1,37 @@
+.btn-danger {
+    font-size: .8rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: verdana;
+}
+
+.btn-success {
+    font-size: .8rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: verdana;
+}
+
+.container-fluid {
+    background-color: #F2F2F2;
+    color: black;
+    font-family: verdana;
+}
+
+.buttonview {
+    font-size: .8rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-family: verdana;
+}
+
+.table, th, td {
+    width:250px;
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+}
